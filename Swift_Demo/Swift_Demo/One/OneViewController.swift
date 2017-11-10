@@ -21,6 +21,11 @@ class OneViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func postRequest() {
+        
+        
+    }
+    
 
     /*
     // MARK: - Navigation

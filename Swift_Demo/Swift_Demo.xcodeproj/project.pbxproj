@@ -20,6 +20,7 @@
 		18C0409D1FA6C19000C949C6 /* Swift_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0409C1FA6C19000C949C6 /* Swift_DemoUITests.swift */; };
 		18C040AC1FA6C57900C949C6 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C040AB1FA6C57900C949C6 /* OneViewController.swift */; };
 		18C040B01FA6CA3D00C949C6 /* HBX_BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C040AF1FA6CA3D00C949C6 /* HBX_BaseViewController.swift */; };
+		18E023721FB44D8600455D52 /* HBX_CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E023711FB44D8600455D52 /* HBX_CustomTabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		18C0409E1FA6C19000C949C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C040AB1FA6C57900C949C6 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 		18C040AF1FA6CA3D00C949C6 /* HBX_BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBX_BaseViewController.swift; sourceTree = "<group>"; };
+		18E023711FB44D8600455D52 /* HBX_CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBX_CustomTabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,10 +187,19 @@
 		18C040AE1FA6CA1400C949C6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				18E023701FB44D4600455D52 /* customTabbar */,
 				18C040AF1FA6CA3D00C949C6 /* HBX_BaseViewController.swift */,
 				1888BC621FB2D7200091285B /* HBX_NavViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		18E023701FB44D4600455D52 /* customTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				18E023711FB44D8600455D52 /* HBX_CustomTabbar.swift */,
+			);
+			path = customTabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +344,7 @@
 				1888BC6B1FB2DF910091285B /* HBX_ThreeViewController.swift in Sources */,
 				18C0407F1FA6C19000C949C6 /* ViewController.swift in Sources */,
 				18C040B01FA6CA3D00C949C6 /* HBX_BaseViewController.swift in Sources */,
+				18E023721FB44D8600455D52 /* HBX_CustomTabbar.swift in Sources */,
 				18C0407D1FA6C19000C949C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

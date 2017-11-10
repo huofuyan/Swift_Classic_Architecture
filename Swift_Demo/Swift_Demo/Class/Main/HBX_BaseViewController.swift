@@ -8,12 +8,16 @@
 
 import UIKit
 
-class HBX_BaseViewController: UITabBarController {
 
+
+class HBX_BaseViewController: UITabBarController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.addChildViewControllers()
+        
+        self.setValue(HBX_CustomTabbar(), forKey: "tabBar")
     }
 
     override func didReceiveMemoryWarning() {
