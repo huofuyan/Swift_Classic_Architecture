@@ -19,7 +19,10 @@ class HBX_CustomTabbar: UITabBar {
     
     lazy var centerButton: UIButton = {
         
-        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        let pointx = self.bounds.origin.x
+        let pointy = self.bounds.origin.y
+        
+        let button = UIButton(frame: CGRect(x: pointx, y: pointy, width: 40, height: 40))
         
         button.setImage(UIImage(named: "ime_home"), for: UIControlState.normal)
         
@@ -49,13 +52,13 @@ class HBX_CustomTabbar: UITabBar {
         let barHeight = bounds.size.height
         
         //中间按钮宽度
-        let centerButtonWidth = centerButton.frame.width
+//        let centerButtonWidth = centerButton.frame.width
         
         //中间按钮高度
 //        let centerButtonHeight = centerButton.frame.height
         
         //中间按钮的位置
-        centerButton.center = CGPoint(x: barWidth / 2, y: barHeight / 2)
+        centerButton.center = CGPoint(x: barWidth / 2, y: 27)
         
         //item 宽度
         let barItemWidth = (barWidth) / (CGFloat(tabbarButtonArrayM.count) + 1)
